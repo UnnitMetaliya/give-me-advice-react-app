@@ -1,10 +1,21 @@
 import React, { Component } from "react";
+import "../styles/AdviceButton.scss";
 
 class AdviceButton extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  handleClick = () => {
+    alert("Fucking button worked!");
+  };
   render() {
     return (
-      <div class="button">
-        <p>Click me</p>
+      <div className="Advice-button">
+        <a onClick={this.props.onClick}>
+          Get Advice! <span role="img"> 🔥</span>
+        </a>
       </div>
     );
   }

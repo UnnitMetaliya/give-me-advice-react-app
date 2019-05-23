@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/give-me-advice-react-app/precache-manifest.75a280f527592fa3d36d75e1f98e4792.js"
+  "/give-me-advice-react-app/precache-manifest.50c24df427df956c429522156d29cdb1.js"
 );
 
 self.addEventListener('message', (event) => {
